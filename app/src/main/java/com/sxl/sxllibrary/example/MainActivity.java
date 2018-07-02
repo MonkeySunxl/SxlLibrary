@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onNext(BaseInfoBean<VersionBean> infoBean) {
                         Log.i("检测版本更新2", "onNext: "+infoBean.getInfo().toString());
                         if (infoBean.getStatus() == 1) {
-                            tv.setText(infoBean.getInfo().getDesc());
+                            
                         }
                     }
                 });
