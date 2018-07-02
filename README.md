@@ -8,10 +8,14 @@ retrofit+okhttp+rxjava 网络请求 + mvp 基础类
    SXLSingle.init(this);
    
    动态设置服务器地址：
+   
    BaseUrl.API_BASE_URL="";
    SXLSingle.getBuilder().baseUrl(BaseUrl.API_BASE_URL);
+   
   // 添加公共参数拦截器
     SXLSingle.getHttpClientNoCacheBuilder().addInterceptor(new HttpCommonInterceptor());
+    
+   
     方法一：
         SXLSingle.createService(ApiService.class,false).getVersion1()
                 .subscribeOn(Schedulers.newThread())
