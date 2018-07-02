@@ -62,3 +62,17 @@ retrofit+okhttp+rxjava 网络请求 + mvp 基础类
             }
         });
               
+重点：
+Step 1. Add the JitPack repository to your build file
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+Step 2. Add the dependency
+	dependencies {
+	        implementation 'com.github.MonkeySunxl:SxlLibrary:V1.0'
+	}
