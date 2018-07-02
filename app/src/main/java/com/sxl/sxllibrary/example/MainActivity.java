@@ -20,8 +20,6 @@ import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
 
-    @BindView(R.id.tv)
-    TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
