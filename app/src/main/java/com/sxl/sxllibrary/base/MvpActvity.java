@@ -3,7 +3,7 @@ package com.sxl.sxllibrary.base;
 import android.os.Bundle;
 
 public abstract class MvpActvity<P extends BasePresenter> extends BaseActivity implements BaseView {
-    P presenter;
+   public P presenter;
 
     @Override
     public void initBefore(Bundle savedInstanceState) {
