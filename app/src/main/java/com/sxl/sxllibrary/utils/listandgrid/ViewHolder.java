@@ -12,11 +12,9 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 /**
- * @ProjectName wmt
  * @ClassDescribe
  * @Author
  * @Date 2017/3/13 10:29
- * @Copyright 未名天
  * 公共适配器类 viewholder类
  */
 
