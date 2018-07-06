@@ -10,11 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @ProjectName wmt
  * @ClassDescribe
  * @Author
  * @Date 2017/4/27 11:30
- * @Copyright 未名天
  */
 
 public abstract class BaseRecyclerAdapter<T> extends RecyclerView.Adapter<RecyclerViewHolder> {
@@ -87,14 +85,38 @@ public abstract class BaseRecyclerAdapter<T> extends RecyclerView.Adapter<Recycl
         return mData.size();
     }
 
+    /**
+     * 更新特定位置数据
+     * @param pos
+     * @param item
+     */
     public void add(int pos, T item) {
         mData.add(pos, item);
         notifyItemInserted(pos);
     }
 
+    /**
+     * 增量更新数据
+     * @param data
+     */
+    public void addAll(List<T> data) {
+        mData.addAll(data);
+        notifyDataSetChanged();
+    }
+    /**
+     * 删除特定位置数据
+     * @param pos
+     */
     public void delete(int pos) {
         mData.remove(pos);
         notifyItemRemoved(pos);
+    }
+    /**
+     * 删除对应集合数据
+     */
+    public void deleteAll(List<T> data) {
+        mData.removeAll(data);
+        notifyDataSetChanged();
     }
    protected boolean isHaveHead(){
        return false;
