@@ -13,11 +13,9 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 /**
- * @ProjectName wmt
  * @ClassDescribe
  * @Author
  * @Date 2017/4/27 11:28
- * @Copyright 未名天
  */
 
 public class RecyclerViewHolder extends RecyclerView.ViewHolder {
