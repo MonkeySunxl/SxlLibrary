@@ -11,11 +11,9 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 /**
- * @ProjectName Pkusky
  * @ClassDescribe
  * @Author
  * @Date 2018/1/22 13:16
- * @Copyright 未名天
  */
 
 public class CacheStrategyInterceptorNoCache implements Interceptor {
