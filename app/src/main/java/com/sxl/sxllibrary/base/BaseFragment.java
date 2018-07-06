@@ -42,16 +42,16 @@ public abstract class BaseFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         ButterKnife.bind(this, view);
-        init();
+        init(view);
     }
 
-    private final void init() {
-        initView();
+    private final void init(View view) {
+        initView(view);
         initData();
     }
 
 
-    public abstract void initView();
+    public abstract void initView(View view);
 
     public abstract void initData();
 
