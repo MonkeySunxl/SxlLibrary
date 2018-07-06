@@ -9,11 +9,9 @@ import android.widget.BaseAdapter;
 import java.util.List;
 
 /**
- * @ProjectName wmt
  * @ClassDescribe
  * @Author
  * @Date 2017/3/13 10:37
- * @Copyright 未名天
  * 公共适配器类
  */
 
