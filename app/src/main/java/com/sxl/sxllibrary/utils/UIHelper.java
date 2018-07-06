@@ -12,7 +12,6 @@ import java.math.BigDecimal;
 import java.text.DecimalFormat;
 
 /**
- * @ProjectName wmt
  * @ClassDescribe 应用程序UI工具包：封装UI相关一些操作
  */
 
