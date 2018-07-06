@@ -10,9 +10,7 @@ import android.provider.ContactsContract;
 import android.support.v4.app.ActivityCompat;
 
 /**
- * @ProjectName wmt
  * @ClassDescribe 跳转相关工具类
- * @Copyright 未名天
  */
 
 public class IntentUtils {
