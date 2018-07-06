@@ -8,7 +8,6 @@ import android.net.NetworkInfo;
 import android.telephony.TelephonyManager;
 
 /**
- * @ProjectName wmt
  * @ClassDescribe 全局网络工具类
  */
 
