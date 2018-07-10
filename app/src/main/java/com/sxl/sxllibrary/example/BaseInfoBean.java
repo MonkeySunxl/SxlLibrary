@@ -1,11 +1,7 @@
 package com.sxl.sxllibrary.example;
 
 /**
- * @ProjectName pkusky
- * @ClassDescribe
- * @Author
- * @Date 2017/7/25 11:58
- * @Copyright 未名天
+ *
  */
 
 public class BaseInfoBean<T> {
