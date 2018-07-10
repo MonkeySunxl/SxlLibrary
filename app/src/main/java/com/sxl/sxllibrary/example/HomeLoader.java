@@ -11,14 +11,14 @@ import rx.Observable;
  */
 
 public class HomeLoader extends ObjectLoader {
-    ApiService apiService;
-    private Object versonInfo;
+//     ApiService apiService;
+//     private Object versonInfo;
 
-    public HomeLoader() {
-        apiService = SXLSingle.createService(ApiService.class, false);
-    }
+//     public HomeLoader() {
+//         apiService = SXLSingle.createService(ApiService.class, false);
+//     }
 
-    public Observable<BaseInfoBean<VersionBean>> getVersonInfo() {
-        return baseSubscribe(apiService.getVersion());
-    }
+//     public Observable<BaseInfoBean<VersionBean>> getVersonInfo() {
+//         return baseSubscribe(apiService.getVersion());
+//     }
 }
