@@ -10,9 +10,4 @@ import rx.Observable;
  */
 
 public interface ApiService {
-    //版本更新
-    @POST("riyurumenApp/index/getVersion")
-    Observable<BaseInfoBean<VersionBean>> getVersion();
-    @GET("index/getVersion")
-    Observable<BaseInfoBean<VersionBean>> getVersion1();
 }
